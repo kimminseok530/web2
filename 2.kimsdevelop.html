@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>enviroment-co</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nav{
+        height: 80px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+      .nav-right-items{
+        display: flex;
+        margin-left: auto;
+
+      }
+      .nav-item{
+        margin-left: 20px
+      }
+      .company-name{
+        margin-left: 20px;
+      }
+      .title{
+        font-size: 3.5rem;
+        font-weight: bold;
+        text-align: center;
+      }  
+      .subtitle{
+        font-size: 1.25rem;
+        font-weight: 300;
+        text-align: center;
+      }  
+      .main{
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+      }
+      .price-item{
+        width: 300px;
+        height: 350px;
+        border: 1px solid black;
+        margin: 20px;
+        border-radius: 5px;
+      }
+      .prices{
+        display: flex;
+        
+      }
+      .price-item-title{
+         font-size: 1.5rem;
+         text-align: center;
+         height: 53px;
+         background: rgba(0,0,0,.03);
+         line-height: 53px;
+         border-bottom: 1px solid black;
+      }
+      .price-item-price{
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 20px;
+      }
+      .price-item-button{
+        padding: .8rem 2rem;
+        font-weight: 600;
+        color: #fff;
+        background-color: #7952b3;
+        border-color: #7952b3;
+        border-radius: .3rem;
+        margin-top: 100px;
+      }
+      .price-item-button-active{
+        background-color: transparent;
+      }
+      
+
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="company-name">김민석<a href="1_kims.html"></a></div>
+      <div class="nav-right-items">
+        <div class="nav-item">인사말</div>
+        <div class="nav-item">환경기업추천</div>
+        <div class="nav-item">환경스타트업 탐방</div>
+        <div class="nav-item">환경가치 투자</div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        친환경플랫폼</div>
+      <div class="subtitle">
+       환경이슈에 맞게 소비자의 수요와 기업의 공급 기술개발을 이어질 목적으로 이 <strong>사이트는 제작됨</strong>
+       
+      </div>
+      <div class="prices">
+       <div class="price-item">
+         <div class="price-item-title">
+           대기환경</div>
+         <div class="price-item-price">
+           탄소배출 
+         </div>
+         <div class="price-item-details">
+           미세먼지 저감기술 기업 
+         </div>
+         <button class="price-item-button" "price-item-button-active">
+           click me
+         </button>
+       </div>
+       <div class="price-item">
+         <div class="price-item-title">
+           수질환경</div>
+         <div class="price-item-price">
+           수생태계
+         </div>
+         <div class="price-item-details">
+           물 저감 기술, 
+         </div>
+         <button class="price-item-button">
+           click me
+         </button>
+        </div>
+       <div class="price-item">
+         <div class="price-item-title">
+           대안식품</div>
+         <div class="price-item-price">
+           육류소비
+         </div>
+         <div class="price-item-details">
+           육류소비절감
+         </div>
+         <button class="price-item-button">
+           click me
+         </button>
+       </div>
+       <div class="price-item">
+         <div class="price-item-title">
+           에너지</div>
+         <div class="price-item-price">
+           에너지
+         </div>
+         <div class="price-item-details">
+           태양광 풍력 해상풍력  
+         </div>
+         <button class="price-item-button">
+           click me
+         </button>
+       </div>
+      </div>  
+
+    </div>
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
